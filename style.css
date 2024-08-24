@@ -1,0 +1,257 @@
+.my-35 {
+  margin: 35px 0;
+}
+h3 {
+  font-size: 1.5em;
+  color: #01818c;
+  font-family: Roboto;
+
+  font-weight: 500;
+  margin: 45px 0;
+}
+
+input[type="radio"]:checked + label {
+  color: #01818c;
+}
+.form-check-input:checked {
+  background-color: #01818c;
+  border-color: #01818c;
+}
+
+#cars {
+  width: 100%;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid #9d9797;
+  padding: 0 12px;
+  margin: 10px 0;
+}
+.submitButton {
+  padding: 9px 32px;
+  background-color: #01818c;
+
+  border: none;
+}
+.card {
+  position: relative;
+  height: 94%;
+}
+.card-container {
+  width: 30%;
+  margin: 15px 0;
+}
+.card-container p {
+  text-align: center;
+}
+.btn {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-top: 26px;
+  border-radius: 0 0 5px 5px;
+  bottom: 0;
+  border: none;
+}
+.accordion.active + .panel {
+  display: flex !important;
+  justify-content: space-between;
+}
+.card h5 {
+  text-align: center;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 5px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.accordion.active + .panel {
+  display: block;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+.carousel {
+  margin-top: 51px;
+}
+.carousel-item {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.carousel-caption {
+  position: static;
+  text-align: center;
+  padding: 10px;
+  color: #455a64;
+}
+.carousel-caption h5 {
+  font-weight: 800;
+}
+
+.carousel-inner {
+  width: 60%;
+  margin: 22px auto;
+}
+.carousel-control-prev {
+  left: 8%;
+}
+.carousel-control-prev-icon {
+  background: black;
+  border-radius: 50%;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  align-items: center;
+}
+.carousel-control-next {
+  right: 8%;
+}
+.carousel-control-next-icon {
+  background: black;
+  border-radius: 50%;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  align-items: center;
+}
+.indicators-style {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #043953;
+  opacity: 1;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
+  transform: translate(0, 60px);
+  display: flex;
+  bottom: 9%;
+  gap: 11px;
+}
+
+.carousel-indicators .active {
+  background-color: #043953;
+}
+.bgSection {
+  background-color: #ebf7fc;
+  padding-top: 21px;
+  position: relative;
+  padding-bottom: 100px;
+}
+.footerSection {
+  background: #043953;
+  width: 1152px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderButton {
+  padding: 8px 25px;
+  background: #043953;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.sliderStyle {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+}
+.carousel-caption .leftIcon {
+  margin-right: 93%;
+  width: 46px;
+  height: 26px;
+}
+.carousel-caption .rightIcon {
+  width: 46px;
+  height: 26px;
+  margin-left: 40%;
+}
+.carousel-caption p {
+  display: inline-block;
+  text-align: left;
+}
+.submitButtonStyle {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.border-color-0 {
+  border: 3px solid #2b7397;
+}
+
+.border-color-1 {
+  border: 3px solid #32959d;
+}
+
+.border-color-2 {
+  border: 3px solid #9c7777;
+}
+.button-color-0 {
+  background-color: #2b7397;
+}
+.button-color-1 {
+  background-color: #2b7397;
+}
+.button-color-2 {
+  background-color: #9c7777;
+}
+@media screen and (max-width: 767px) {
+  .accordion.active + .panel {
+    flex-direction: column;
+  }
+  .card-container {
+    width: 100%;
+  }
+}
